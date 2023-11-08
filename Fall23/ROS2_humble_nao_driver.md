@@ -80,12 +80,6 @@ vcs import --input https://raw.githubusercontent.com/ros2/ros2/humble/ros2.repos
 ```
 The ROS2 repo will now be in your `ros2_humble/src/` directory
 
-You can double check that it is on the humble branch!
-```
-cd src/ros2
-git checkout humble
-```
-
 #### 2.e Install dependencies using rosdep
 
 ROS 2 packages are built on frequently updated Ubuntu systems. It is always recommended that you ensure your system is up to date before installing new packages.
