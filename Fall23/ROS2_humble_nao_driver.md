@@ -174,6 +174,6 @@ This will build all packages and will take a while!! On the Dell it took a least
  
 #### 3.f. Test with NAO
   - After colcon build is successful (no failures)
-  - Follow the instructions on the naoqi_driver page: https://github.com/ros-naoqi/naoqi_driver2/tree/fix_humble#launch
+  - Follow the instructions after the "Launch" heading on the naoqi_driver page: https://github.com/ros-naoqi/naoqi_driver2/#launch
   - You must always enter
   - `source ~/ros2_humble/install/setup.bash` when you open a new terminal
