@@ -150,7 +150,7 @@ At this point the instructions assume the thing is ready to build, but NO! There
 #### 3.c. Clone ROS2 OpenCV vision package to src folder
 ```
   cd ~/ros2_humble/src/
-  git clone https://github.com/ros-perception/vision_opencv.git -b ros2
+  git clone https://github.com/ros-perception/vision_opencv.git -b humble
 ```
 #### 3.d. Clone ROS2 diagnostics package
 Also to src folder:
