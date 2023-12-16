@@ -1,0 +1,46 @@
+SCI 295: NAO - ROS, ROS2 
+
+
+The Goal:
+Learn, install, and develop the software necessary in order to operate the NAO 6 robot.
+
+The Process:
+Cleaning of work area in STEM center
+Familiarization of basic NAO 6 robot functionalities
+General history of NAO 6 and corporate transitions leading to mishandled documentation
+
+Research: ROS 
+Approach: Google searches, Youtube, Udemy, email
+
+Terms to understand: 
+Distributions - A ROS distribution is a versioned set of ROS packages. These are akin to Linux distributions (e.g. Ubuntu). The purpose of the ROS distributions is to let developers work against a relatively stable codebase until they are ready to roll everything forward.
+
+Repository - A central location in which data is stored and managed.
+Dependency - A software dependency is a relationship between software components where one component relies on the other to work properly.
+
+Ubuntu - Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software.
+
+
+
+
+Process:
+Due to the messy predicament caused by the multiple changes of ownership of NAO, Google searches resulted in many different sources that have produced guides and repositories. The very nature of open source software already creates diverse databases, which made the process of researching a best path complicated. By recommendation and best judgement, I chose  wiki.ros.org as my guide and was recommended to pursue the Noetic distribution of ROS.
+http://wiki.ros.org/Installation/Ubuntu
+*Installation of dependencies happen in the terminal
+*I used VirtualBox virtual machine in order to run Linux on my Mac
+
+ROS Noetic Results:
+Ultimately, I was able to functionally use Virtual Box to download ROS Noetic successfully. Turtlesim is a 2D simulation of a turtle that you can control by using ROS. The problem came with slow processing speed due to the VM and when trying to connect to NAO as I couldn’t find a resource specific to ROS and Noetic that applied.
+
+At this point, I felt a bit stuck. So, I purchased a ROS tutorial on Udemy to understand the program. The tutorial did not include NAO, but helped me to understand how ROS commands, subscriber, publisher, and environments work. 
+
+*Lisa was able to get ROS2 to work on the STEM center Dell laptop, so I changed focus to what was working.
+https://docs.ros.org/en/humble/Tutorials.html
+Using this tutorial, I was able to understand deeper concept on nodes, topics, services, parameters, and actions.
+
+
+In Conclusion:
+This was a great experience that taught me how complex robotics can be. The process would have been much simpler if the company history wasn’t so muddled, but that also helped me to consider the business side of tech and software. 
+
+Moving forward, I am still very interested in robotics and would like to work on another project in the future. The next project will probably simpler with good documentation, something like Raspberry Pi. The greatest skill I have gained from this is a keener ability to make a judgement prior to a project.
+
